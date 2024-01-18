@@ -223,7 +223,6 @@ def evolution_strategy(data):
         # Replace the current population with the offspring
         population[:] = top_individuals
 
-        # ... Rest of the code remains similar ...
         # Gather and print the population's statistics
         fits = [ind.fitness.values[0] for ind in population]
         min_fitness_list.append(min(fits))
